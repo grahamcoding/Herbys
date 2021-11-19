@@ -27,6 +27,15 @@
   text-shadow: 5px 5px 10px black;
 }
 
+.quote{
+  font-style: italic;
+}
+
+#reviewtext {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
