@@ -12,6 +12,16 @@
     margin: 0;
 }
 
+.parallaxSpecial{
+  background-image: url("/img/header.jpg");
+  max-height: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
 #header{
   position: absolute;
   z-index: 1000;
@@ -22,6 +32,14 @@
 .text-box{
 	height: 600px;
 	padding: 150px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: x-large;
+  text-shadow: 5px 5px 10px black;
+}
+
+.text-boxSpecial{
+	height: 600px;
+	padding: 80px;
   font-family: 'Permanent Marker', cursive;
   font-size: x-large;
   text-shadow: 5px 5px 10px black;
