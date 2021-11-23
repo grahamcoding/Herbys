@@ -2,6 +2,10 @@
     height: 25px;
   }
 
+ h4 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: x-large;
+}
   .parallax{
     background-image: url("/img/header.jpg");
     max-height: 400px; 
@@ -68,3 +72,6 @@
   max-width: 400px;
 }
 
+.specialImages {
+  max-height: 250px;
+} 
