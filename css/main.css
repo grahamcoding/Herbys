@@ -4,7 +4,7 @@
 
  h4 {
   font-family: 'Permanent Marker', cursive;
-  font-size: x-large;
+  font-size: 40px;
 }
   .parallax{
     background-image: url("/img/header.jpg");
@@ -75,3 +75,8 @@
 .specialImages {
   max-height: 250px;
 } 
+
+.plainLinks {
+  color: black;
+  font-size: 25px;
+}
