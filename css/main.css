@@ -2,11 +2,12 @@
     height: 25px;
   }
 
- h4 {
+h4 {
   font-family: 'Permanent Marker', cursive;
   font-size: 40px;
 }
-  .parallax{
+
+.parallax{
     background-image: url("/img/header.jpg");
     max-height: 400px; 
     background-attachment: fixed;
