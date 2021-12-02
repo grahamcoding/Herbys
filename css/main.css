@@ -27,6 +27,7 @@ h4 {
   margin: 0;
 }
 
+
 #header{
   position: absolute;
   z-index: 1000;
@@ -39,7 +40,7 @@ h4 {
 	padding: 150px;
   font-family: 'Permanent Marker', cursive;
   font-size: x-large;
-  text-shadow: 5px 5px 10px black;
+  text-shadow: 5px 5px 25px black;
 }
 
 .text-boxSpecial{
@@ -47,7 +48,7 @@ h4 {
 	padding: 80px;
   font-family: 'Permanent Marker', cursive;
   font-size: x-large;
-  text-shadow: 5px 5px 10px black;
+  text-shadow: 5px 5px 25px black;
 }
 
 .quote{
@@ -100,3 +101,19 @@ h4 {
   .copyright {
     font-size: 11px;
   }
+
+  .text-focus-in {
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+  
+  @keyframes text-focus-in {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
