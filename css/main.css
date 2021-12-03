@@ -102,12 +102,13 @@ h4 {
     font-size: 11px;
   }
 
-  .text-focus-in {
-    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  .focus-in-expand {
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   
-  @keyframes text-focus-in {
+  @keyframes focus-in-expand {
     0% {
+      letter-spacing: -0.5em;
       filter: blur(12px);
       opacity: 0;
     }
